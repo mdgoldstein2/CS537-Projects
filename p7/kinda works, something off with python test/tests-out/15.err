@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "tests/stat_test.py", line 12, in <module>
+    tester.run_server(threads=threads, buffers=buffers)
+  File "/afs/cs.wisc.edu/u/m/g/mgoldstein/private/CS537/p7/tests/tester.py", line 62, in run_server
+    raise TestFailure(
+tester.TestFailure: Server exits unexpectedly with return code 0
